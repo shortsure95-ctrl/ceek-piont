@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "01700000000",
+      "password": "admin",
+      "balance": 1000,
+      "referredBy": null,
+      "createdAt": "2026-06-29T03:38:51.000Z",
+      "isBlocked": false,
+      "isAdmin": true
+    },
+    {
+      "id": "01800000000",
+      "password": "user123",
+      "balance": 150,
+      "referredBy": "01700000000",
+      "createdAt": "2026-06-29T03:38:51.000Z",
+      "isBlocked": false,
+      "isAdmin": false
+    },
+    {
+      "id": "01609166109",
+      "password": "@123321@",
+      "balance": 0,
+      "referredBy": null,
+      "createdAt": "2026-06-29T10:50:46.054Z",
+      "isBlocked": false,
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-hotmail-fresh-1tk",
+      "name": "hotmail fresh 1 tk",
+      "description": "হটমেইল ফ্রেশ অ্যাকাউন্ট ১ টাকা। মেইল ক্রয়ের পর ১ ঘণ্টা ওয়ারেন্টি পাবেন।",
+      "price": 1,
+      "stock": 0
+    },
+    {
+      "id": "prod-9proxy-1gb",
+      "name": "9 proxy 1gb 150 tk",
+      "description": "৯ প্রক্সি ১জিবি ১৫০ টাকা। ব্যবহারের পর রিভিউ দিতে ভুলবেন না।",
+      "price": 150,
+      "stock": 0
+    },
+    {
+      "id": "prod-owlproxy-200mb",
+      "name": "owl proxy 200 mb 20 taka",
+      "description": "আউল প্রক্সি ২০০এমবি ২০ টাকা। যেকোনো প্রয়োজনে হোয়াটসঅ্যাপে যোগাযোগ করুন।",
+      "price": 20,
+      "stock": 0
+    },
+    {
+      "id": "prod-chatgpt-plus-500tk",
+      "name": "ChatGPT Plus Personal",
+      "description": "চ্যাটজিপিটি প্লাস পার্সোনাল অ্যাকাউন্ট ৫০০ টাকা। ১ মাস মেয়াদি প্রিমিয়াম সাবস্ক্রিপশন।",
+      "price": 500,
+      "stock": 0
+    },
+    {
+      "id": "prod-gemini-18m-500tk",
+      "name": "Gemini 18 Month",
+      "description": "জেমিনি ১৮ মাস মেয়াদি প্রিমিয়াম অ্যাকাউন্ট ৫০০ টাকা। হাই কোয়ালিটি ফুল ওয়ারেন্টি।",
+      "price": 500,
+      "stock": 0
+    }
+  ],
+  "mails": [],
+  "deposits": [
+    {
+      "id": "dep-1",
+      "userId": "01800000000",
+      "amount": 200,
+      "bKashNumber": "01800000000",
+      "transactionId": "TRX8829910",
+      "status": "approved",
+      "createdAt": "2026-06-29T01:00:00.000Z",
+      "approvedAt": "2026-06-29T01:05:00.000Z"
+    },
+    {
+      "id": "dep-2",
+      "userId": "01800000000",
+      "amount": 100,
+      "bKashNumber": "01800000000",
+      "transactionId": "TRX9938810",
+      "status": "pending",
+      "createdAt": "2026-06-29T03:00:00.000Z",
+      "approvedAt": null
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1",
+      "userId": "01800000000",
+      "sheetLink": "https://docs.google.com/spreadsheets/d/1abc123xyz/edit",
+      "note": "সব মেইলে ২-ফ্যাক্টর অ্যাক্টিভ করা আছে। রিকভারি কোড শিটে দেওয়া আছে।",
+      "status": "pending",
+      "createdAt": "2026-06-29T02:30:00.000Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "content": "আসসালামু আলাইকুম, আমাদের মেইল সেলিং ওয়েবসাইটে আপনাকে স্বাগতম। এখন থেকে আপনারা খুব সহজেই বিকাশ পেমেন্টের মাধ্যমে হটমেইল এবং আউটলুক অ্যাকাউন্ট ক্রয় করতে পারবেন। নতুন পণ্য নিয়মিত যুক্ত করা হচ্ছে। যেকোনো প্রয়োজনে লাইভ চ্যাট অথবা হোয়াটসঅ্যাপে যোগাযোগ করুন।",
+      "createdAt": "2026-06-29T00:00:00.000Z"
+    }
+  ],
+  "config": {
+    "referralBonusPercent": 5,
+    "bkashNumber": "01788888888",
+    "tokenToCodeLink": "https://tokentocode.com",
+    "twoFactorCodeLink": "https://2fa.live",
+    "sourcingLink": "https://sourcing-hub.com",
+    "adminWhatsApp": "8801788888888",
+    "developerWhatsApp": "8801700000000"
+  },
+  "chatMessages": [
+    {
+      "id": "chat-1",
+      "userId": "01800000000",
+      "sender": "user",
+      "message": "ভাইয়া, হটমেইল ওল্ড অ্যাকাউন্টগুলো কি স্টকে আছে?",
+      "createdAt": "2026-06-29T03:10:00.000Z"
+    },
+    {
+      "id": "chat-2",
+      "userId": "01800000000",
+      "sender": "admin",
+      "message": "হ্যাঁ ভাইয়া, স্টকে আছে। আপনি ব্যালেন্স এড করে এখনই সরাসরি কিনে নিতে পারেন।",
+      "createdAt": "2026-06-29T03:12:00.000Z"
+    },
+    {
+      "id": "chat-1782730455703",
+      "userId": "01609166109",
+      "sender": "user",
+      "message": "hi",
+      "createdAt": "2026-06-29T10:54:15.703Z"
+    }
+  ]
+}
